@@ -11,7 +11,7 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-    - uses: actions/first-interaction@v1
+    - uses: actions/first-interaction@main
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         pr-message: "Message that will be displayed on users' first pull request"
