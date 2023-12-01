@@ -11,6 +11,7 @@ Course information: [link](https://www.evidentlyai.com/ml-observability-course).
 - pillow       10.1.0
 - nltk         3.8.1
 - prefect      2.14.9
+- mlflow       2.4.2
 
 ### To allow reports, use jupyter nbextensions
 jupyter nbextension install --sys-prefix --symlink --overwrite --py evidently
