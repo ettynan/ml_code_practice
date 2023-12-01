@@ -8,9 +8,15 @@ Course information: [link](https://www.evidentlyai.com/ml-observability-course).
 - pandas       2.0.3
 - numpy        1.20.3
 - evidently    0.4.7
+- pillow       10.1.0
+- nltk         3.8.1
+- prefect      2.14.9
 
 ### To allow reports, use jupyter nbextensions
 jupyter nbextension install --sys-prefix --symlink --overwrite --py evidently
 
 ### To enable, run:
 jupyter nbextension enable evidently --py --sys-prefix
+
+### Running airflow on Docker for later in the series
+- The instructions can be found in the airflow documentation [here](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html#running-airflow-in-docker).
