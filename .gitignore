@@ -163,3 +163,5 @@ cython_debug/
 *.DS_Store
 *.html
 *.db
+*.json
+*.parquet

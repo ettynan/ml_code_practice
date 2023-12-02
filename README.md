@@ -3,15 +3,18 @@
 Course information: [link](https://www.evidentlyai.com/ml-observability-course).
 
 ## Requirments
-- scikit-learn 0.24.2
-- jupyter      1.0.0
-- pandas       2.0.3
-- numpy        1.20.3
-- evidently    0.4.7
-- pillow       10.1.0
-- nltk         3.8.1
-- prefect      2.14.9
-- mlflow       2.4.2
+- scikit-learn   0.24.2
+- jupyter        1.0.0
+- pandas         2.0.3
+- numpy          1.20.3
+- evidently      0.4.8
+- pillow         10.1.0
+- nltk           3.8.1
+- prefect        2.14.9
+- mlflow         2.4.2
+- pyarrow
+- psycopg        3.1.13
+- psycopg_binary 3.1.13
 
 ### To allow reports, use jupyter nbextensions
 jupyter nbextension install --sys-prefix --symlink --overwrite --py evidently
