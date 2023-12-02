@@ -24,3 +24,6 @@ jupyter nbextension enable evidently --py --sys-prefix
 
 ### Running airflow on Docker for later in the series
 - The instructions can be found in the airflow documentation [here](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html#running-airflow-in-docker).
+
+### Resolving jinja import error
+- In section 5 the jinja import error required a flask up date as found in this [link](https://sebhastian.com/python-importerror-cannot-import-name-escape-from-jinja2/)
